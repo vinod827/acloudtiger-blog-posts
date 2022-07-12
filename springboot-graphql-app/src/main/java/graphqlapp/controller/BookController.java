@@ -21,8 +21,9 @@ public class BookController {
 
     @Autowired
     public BookController(GraphQLService graphQLService) {
-
         
+
+
         this.graphQLService=graphQLService;
     }
 
